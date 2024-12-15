@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PitchBook Scraper</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    html {
+      border-radius: 20px;
+      overflow: hidden;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      padding: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      width: 300px;
+      border-radius: 20px;
+    }
+    input, button {
+      font-family: 'Poppins', sans-serif;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 8px;
+      padding-left: 15px;
+      padding-right: 15px;
+      box-sizing: border-box;
+      border-radius: 20px;
+      border-color: black;
+    }
+    button {
+      background-color: #F9BB2A;
+      color: #171C73;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #171C73;
+      color: white;
+    }
+    #status {
+      margin-top: 10px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h2>PitchBook Scraper</h2>
+  <input type="text" id="sheetName" placeholder="Google Sheet Tab Name" />
+  <button id="scrapeBtn">Scrape & Populate</button>
+  <div id="status"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
