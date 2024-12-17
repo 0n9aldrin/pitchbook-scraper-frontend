@@ -1,5 +1,7 @@
 # PitchBook Scraper Extension
 
+![Chrome extension screenshot](Screenshot.png)
+
 This Chrome extension scrapes data from PitchBook and populates a Google Sheet with the scraped data.
 
 ## Features
